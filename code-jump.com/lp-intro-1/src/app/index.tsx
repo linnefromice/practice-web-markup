@@ -1,4 +1,5 @@
 import { About } from "../About";
+import { Contact } from "../Contact";
 import { Contents } from "../Contents";
 import { Header } from "../Header";
 import { News } from "../News";
@@ -18,6 +19,9 @@ function App() {
       </Contents>
       <Contents title={`News`}>
         <News />
+      </Contents>
+      <Contents title={`Contact`}>
+        <Contact />
       </Contents>
     </div>
   );
