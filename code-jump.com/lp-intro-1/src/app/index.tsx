@@ -23,6 +23,7 @@ function App() {
       <Contents title={`Contact`}>
         <Contact />
       </Contents>
+      <footer className={styles.footer}>{`@ 2020 My Work`}</footer>
     </div>
   );
 }

@@ -1,7 +1,17 @@
 .main {
-  /* width: 100%; */
+  width: 100%;
 }
 
 .main img {
   width: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  color: white;
+  padding: 16px 0;
+  text-align: center;
+  font-size: small;
 }
