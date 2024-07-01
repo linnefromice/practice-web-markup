@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 160px;
+}
+
+.row {
+  width: 100%;
+  padding: 8px 0;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.row-date {
+  text-align: left;
+}
+
+.row-content {
+  text-align: left;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 16px 0;
+}

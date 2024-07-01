@@ -1,6 +1,7 @@
 import { About } from "../About";
 import { Contents } from "../Contents";
 import { Header } from "../Header";
+import { News } from "../News";
 import { Works } from "../Works";
 import styles from "./styles.module.css";
 
@@ -15,7 +16,9 @@ function App() {
       <Contents title={`Works`}>
         <Works />
       </Contents>
-      <Contents title={`News`} />
+      <Contents title={`News`}>
+        <News />
+      </Contents>
     </div>
   );
 }
