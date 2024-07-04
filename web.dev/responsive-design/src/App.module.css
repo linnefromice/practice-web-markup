@@ -2,7 +2,7 @@
   width: 100vw;
 }
 
-/* micro-layouts */
+/* micro-layouts: Grid */
 .micro {
   width: 100%;
   display: grid;
@@ -13,4 +13,18 @@
   content: '';
   border-top: 0.1em double white;
   align-self: center;
+}
+
+/* micro-layouts: Flexbox */
+.media {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.media-illustration {
+  flex: 1;
+  max-inline-size: 200px;
+}
+.media-content {
+  flex: 3;
 }
