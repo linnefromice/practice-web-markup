@@ -35,3 +35,14 @@ textarea {
   color: white;
   font-size: small;
 }
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 0 8px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+}

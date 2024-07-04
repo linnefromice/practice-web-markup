@@ -27,3 +27,18 @@
   background-color: #e0e0e0;
   margin: 16px 0;
 }
+
+@media (max-width: 767px) {
+  .wrapper {
+    padding: 0 16px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divider {
+    margin: 8px 0;
+  }
+}

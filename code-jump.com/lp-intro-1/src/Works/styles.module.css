@@ -12,3 +12,10 @@
   height: auto;
   object-fit: cover; /* 画像の比率を保ちながらコンテナに収める */
 }
+
+@media (max-width: 767px) {
+  .wrapper {
+    grid-gap: 16px;
+    padding: 16px;
+  }
+}

@@ -6,3 +6,9 @@
   margin: 0 200px;
   row-gap: 28px;
 }
+
+@media (max-width: 767px) {
+  .wrapper {
+    margin: 0;
+  }
+}
