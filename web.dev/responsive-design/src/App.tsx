@@ -1,8 +1,10 @@
-import './App.css'
+import styles from './App.module.css'
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div className={styles.root}>
+      <h1 className={styles.micro}>Hello World!</h1>
+    </div>
   )
 }
 
